@@ -15,3 +15,5 @@ This project is a reusable presentation template built with HTML, CSS, JavaScrip
 - **Light/Dark Mode Toggle**: Change between light and dark themes.
 - **Watermarks and Header/Footer Information**.
 
+## Executing the code
+-**To run this you can download the repository and type "Python app.py" in  the  terminal inorder to  executethecode**
