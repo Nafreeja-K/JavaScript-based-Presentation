@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const slides = [
     { type: 'opening', content: '<h2 class="centering">Welcome to the Presentation</h2><p class="content-centering">This is the opening slide.</p>' },
-    { type: 'image', content: '<h2 class="centering">Image Slide</h2><img src="logo.png" alt="Logo"]  class="content-centering">' },
+    { type: 'image', content: '<h2 class="centering">Image Slide</h2><img src="https://media.istockphoto.com/id/1139184228/photo/sheet-metal-in-arrow-infinity-recycling-symbol-3d-illustration.jpg?s=1024x1024&w=is&k=20&c=wUqBsGHtzF3EFSbYEADmI5_NpN7Y7dpkm8pH7suSPWQ=" alt="Logo"]  class="content-centering">' },
     { type: 'chart', content: '<h2>Chart Slide</h2><canvas id="chartCanvas"></canvas>' },
     { type: 'code', content: '<h2 class="centering">Code Block</h2><pre><code class="content-centering">console.log("Hello, World!");</code></pre>' },
     { type: 'python', content: `<h2 class="centering">Python Code</h2><textarea id="python-code" class="content-centering"></textarea><button id="run-code" class="button-centering">Run Code</button><div id="python-output"></div>` },
