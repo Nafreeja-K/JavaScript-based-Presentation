@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentation Template</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Presentation Title</h1>
+    <button id="toggle-theme">Toggle Light/Dark Mode</button>
+  </header>
+
+  <div id="slides">
+    <!-- Slides will be dynamically loaded here -->
+  </div>
+
+  <footer>
+    <p>© 2024 Demo Company | Contact: demo@example.com</p>
+  </footer>
+
+  <div class="controls">
+    <button id="prev-slide">Previous</button>
+    <button id="next-slide">Next</button>
+  </div>
+
+</body>
+</html>
